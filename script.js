@@ -5,12 +5,6 @@ const cId = document.querySelector("#creature-id");
 const weight = document.querySelector("#weight");
 const height = document.querySelector("#height");
 const types = document.querySelector("#types");
-const hp = document.querySelector("#hp");
-const atk = document.querySelector("#attack");
-const def = document.querySelector("#defense");
-const sAtk = document.querySelector("#special-attack");
-const sDef = document.querySelector("#special-defense");
-const spd = document.querySelector("#speed");
 const stats = document.querySelectorAll(".stat");
 
 async function fetchData(search) {
